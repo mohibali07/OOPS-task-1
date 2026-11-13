@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mini RPG Battle Arena</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="game">
+      <div id="arena">
+        <div id="hud">
+          <div class="side left">
+            <img
+              class="port"
+              src="data:image/jpeg;base64,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"
+              alt="Kazuya"
+            />
+            <div class="bw">
+              <div class="bar"><div class="fill" id="heroFill"></div></div>
+              <span class="name" id="heroName">KAZUYA</span>
+              <div class="hpnum" id="heroHP"></div>
+            </div>
+          </div>
+          <div id="round"><span id="roundNum">1</span><small>ROUND</small></div>
+          <div class="side right">
+            <img
+              class="port"
+              src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCABMAHADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDiLj+Go8gdTVNr0NGMmm+fuYYNcWAr6pM5q251XhXUkjWXRb0g6feOCz9DE46N9Kp69pVxol88BCyKx3RyD7rjrmsuPdjOa6nSrxtX0k6LdSKZEXdayN1Vh/Dn0NexjIunHnhsysJLnlylHxJGkhsLlGPzldw9CKx9Usnl0a2g3AF7qSQn03Vqa7fPZeFVuYEU3UUhjmgkOSmD1H161gW2s2+qslnEwJQZK+nevDw0rzsepV+EorohitLh9xbywGk44GTxWDd6nbLMqs3A4OK2/GmovpVtLZxuVLqN4z16EV5unmXS3ExkXEZGV7nNelc5Oh0D6jHKjYPAOKt2szqjSK/DsOAuelZ9noEk/mRpcxs4AIQHGQe9T2eg6xbvL5W11Q4xnk01LUiRpLfWcccaK0plLZkVk5HpipluIDIS6MqsMbT1qvNbTwRRrcxeTOwzyOR9KSNI42BllVV756mnOnfU5VuW3LXRD3DeTsOFHUtV/wAuSeNUjjJ9zVCK8hzsto1DH+NxmnE30xyBK47leBSh2EywoJOKu2yIFDsTkUlpA2dxHUVK8bFSAK8LDRnH3j3PqC67lu1feSRVxtPmCLe2k3momCdhw0Z9x/WqemoY0JYgD1NaOn37WF0JYpcdmAGQw9DX0c581GxnSwK5zN8QZuoo76Ibi7BLtOzDpuFY9tZQ2fiWzigl2qHbcqfxAoTkn24rr9bt7e4tJ7mxTy0kXOzsvrWB4PsrefXrsSB5JYVQQuW2opkyuWP90AfTknHFeHFqE7I9iplc/ZOSPOtckvbiG3WUl2cABj/F/kUnhc2h1BbXUEP2ZpDHHt6tJ6/SvQz4ZFzLevOEjTT7d3QjpkHGBXNeG9PtzeqC4SW3hdkDfxN6j3r0XNJHiqg+pnatpt9p2pC4tzI8hDDYvSNc4BP1q/o39vQ3kFqbV/MlUvGC3J9yfxruNKsJ7nRo7qdczFCST35wM/hUfil5vDb6Ld3cSSJvmIbHOwRjr/wI1jGt7xrPDNRudD4p0GM+GLK5umi+3FclFHzbeAMn0H9a81vLUxbs8KD3r0Gy1ybVdFuWk8v54YQo7rlj0/KsO90xZ8iTP4V6iV6Vzx6vuzscgxgQA+ft+gzTf7TtozscySnHA5Aq5f6dHbuSIlPuzEfpWc90sYyhtcdOIy3864ZSsVZHcqgXgCnAZqUIep4p6EJ7n0rsVKMY2SPoaUVKfvSsMG9ACDgd6fcqm9FaYRBiNzHnA9cU9iWgdyBhcYA+tbPwM8FaF8S9I8R6pqdvd3f9k3v2dLGwlMdxOAoO4vkYGTgeuDWDFiMZGn7tJkUcdnatHbQ6l9saUDA8sqvPTkms250Py57+F7qC1tr1PJnaG4BkXGcED1yfavS9M8N+BdUMulXvgvxBoSwKNr/aWd0Ge5GQfzPFeQ/Hf4Ta74Js/wDhKfD2oXGreGbsbkuY8pJbZIGJAOoJ6MOh4rjq0E9jXC5pVtyyeh3UEOnj4MaxqEkifbtQgt2jQHJjAxuAPfJzXlOq6AP7DluvtqhvL3KcfMv0966zVNU8/TPsETqIkwuxen3a5HVpZmjEIZiij7nrWDm0tS+VN3O6+DvhfxB4n8BXRt75S1u2xQ3L+ozWppvws1rVNRF54glnuJLYty5zGFCYVFXtzzmu2/Zgtbiw8L3qHTJ4VmlEiM55JxXoPjTUF0TwvqesNDve2t2fZn7xxgDPuTXNCr7x0VYr2Z8saZpUlhql7GxZQpCID6A9avXUkkZzhWJ6gnFIviC31jUNwmgWaYA+Sr/6vj7v4dK0P+Ec1u5hM0KRzcZ2xygtj6V9FCslSSPkK1NymzAu4Uu4Sw2q69ge9cdrK6xaoRHP+7zwPLFdTqUN3azeXLFIjjsyEGqkiPNGRIpYH2rz6sm2XGDehUbxD4jvL4W2k6sLkFsCURgD3PTpT9V1++tJRANcu55U4kfIC59F9qzLq9ttK097e0KyTOv7+bICgDqB7DBq54S+Hni/xbF9v0+xt7HTMgC/1OXyI5Cf+ean5n/CvdryhThZblUsTOpPn6DtP8U6vPObea+Lwcby/YHua9R/4J73d5Zap4zv7qJ49MntopDNKNsbTK8hADHgnBOcVZ+HfgH4Y+B72TUfH/jjStcurhVjXS4sRwMScBXz15OOuPWvSviH8TdL0zQYtJ0Tw3p1vIIttvALqFFIwcBVHBGBXl3ZtWmm7ozvH+r6Xf3N1qOl6ld6JcA5uJoZ/MgK55O3+dRT+PI5vDN54fbUtM1C6srYSCG5wI70NyuzOAp6HHOa+UvFnjnxI2pzSalbG1eRyRbpF5aAe2OD17E1jp4tvJ/Njnt4ZopVWMRvyQoIwAfwrKormmHmonqfjLVtFW9s7vTblEj1G3E5tweYJASJIj7gjP0NYy7r94xA4BdgoYnHeuHt57JwdJdBalnLxM75MUnYg+h4zVnSNWltojFctiSN9spB+62eG+nTmueVK6PRp4mLep9hfCfQvEGn6OklzcqsDxlf3cxZh6da5v8AaS8VHSvhndWCy7rm4liSNm6kBwWz+AP51b+CV/dHwdcPNPIZASG3NngCvFv2kNV/tK6t7WOUNglmHpzxXm0oWranoV2vZXR5vp+pXFlfHVrMmSQ8vGg+ZD6gd816v4I+L/h2No4/EIvrLOAZRAT+PFeElXikUq5VgOoqzDPhvMLHcB617asfNyi2z7c8J654M8X2TwaR4r0nVWjXItrplikPGcYYZrzf456ZpOiX1rb6K15b6tJ+8vLeO53wW8ePkXHTc33uMcda+f7GBNUYRNDDI2OCVwRz2I5FdpomlXMUf2aKbbF1eV2JVe3U1ShzOyR6WVpQcp1Xohvwz8Mw63Pf61rS7vD2kKJpkJ2/aJs/LGD3HQn61t/FTxfJrV9ZXVqd8FuoADgMsHGEEaexx0rXl0qybSxo3lstiBnylcgZzmmx+B/Ds9khltJG8vOwea3FOdVt3Zwxw8ErHl+keFbvUUn1Ca7023i3szC6uSC59QvPX+tXtL8PaVtNvN420GAMfktpUkZI3PVQ38IPXOK6yLwloUU7hLMjnqXJP86sP4Y0OSQK9hG2COtZ87H9XitTEj0uHRrPUB4g0a313Q75YYY5dP1JR5UiFm+VyMjOemOlc/qY8OwybdA8NHTznia7vTcSr2O0BQuetelad4a0eG2uLNbUG3kkErRk5G4DGfyqWDwto0F5bGK22mWZUJznAJ7Z4zxSvc1jQp2u7nm+g6beeE7WXXr7SLe5j1NDbWaXHMq5+9LjsOvNZaaa+oSG6tEj8yBWd4x96aPuoHc4ya+pNY+E/hGdze3KahPOYwuZLxyAMdh0H5V5dbeFNGt/EEtpDC6JbyF4mD/OpA3Dnvz+lBqsNTSvqWfgH4mX/hC9T0a8uf3lsS8Du334WHAJ9QeK4Tx/bXF5qDSRxsyEltwGRXc6J4f0qK7EkNv5bzBndlODnaSavDToWbaXkKlgpGRjBB9vasI0LyudkZ03HldzwW50qYQiTZmqAs5pCVC4xXu194V0U6pJE1sXARDktzyoJ6fWnJ4I8Onc/wBjcHr/AK1sflnFdSh0MeSk5HE/DXw5LJbXMzqoZgqo55Cc5P5iu8jjitYGhiRdrfeyPvc0WtrDpyPBaKY489M1HISWr28Lho25meHmWPf8GCsj/9k="
+              alt="Jin"
+            />
+            <div class="bw">
+              <div class="bar"><div class="fill" id="monFill"></div></div>
+              <span class="name" id="monName">JIN</span>
+              <div class="hpnum" id="monHP"></div>
+            </div>
+          </div>
+        </div>
+        <div class="fighter" id="heroBox"></div>
+        <div class="fighter" id="monBox"></div>
+
+        <div class="power l">
+          <span>POWER</span>
+          <div class="cells" id="heroPower"></div>
+        </div>
+        <div class="power r">
+          <span>POWER</span>
+          <div class="cells" id="monPower"></div>
+        </div>
+
+        <div id="banner">
+          <div id="bannerText"></div>
+          <button id="btnRestart">PLAY AGAIN</button>
+        </div>
+      </div>
+
+      <div id="panel">
+        <div id="controls">
+          <button id="btnAttack">ATTACK</button>
+          <button id="btnHeal">HEAL (-20 mana)</button>
+          <div class="hint">
+            Attack has a 10% chance to crit for double damage. Monsters enrage
+            below 30% health.
+          </div>
+        </div>
+        <ul id="log" aria-live="polite"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
